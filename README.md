@@ -64,7 +64,7 @@ Repository/
     "Output": "Hello, Jacob!\nHello, Pascal!",            // sample output
     "Tests": [                                            // subtasks
         {
-            "score": 20,
+            "score": 20,                                  // subtask score
             "time": 1,                                    // time limit
             "memory": 524288,                             // memory limit
             "input": "input/0",                           // input file
