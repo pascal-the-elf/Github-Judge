@@ -56,20 +56,20 @@ Repository/
 
 ```json
 {
-    "Prefix": "a",
-    "No": "001",
-    "Name": "Hello!",
-    "Description": "輸入一個字串S，然後輸出Hello, S!",
-    "Input": "Jacob\nPascal",
-    "Output": "Hello, Jacob!\nHello, Pascal!",
-    "Tests": [
+    "Prefix": "a",                                        // problem prefix
+    "No": "001",                                          // problem id
+    "Name": "Hello!",                                     // problem name
+    "Description": "輸入一個字串S，然後輸出Hello, S!",      // problem description
+    "Input": "Jacob\nPascal",                             // sample input
+    "Output": "Hello, Jacob!\nHello, Pascal!",            // sample output
+    "Tests": [                                            // subtasks
         {
             "score": 20,
-            "time": 1,
-            "memory": 524288,
-            "input": "input/0",
-            "output": "output/0",
-            "constraint": "S無空格"
+            "time": 1,                                    // time limit
+            "memory": 524288,                             // memory limit
+            "input": "input/0",                           // input file
+            "output": "output/0",                         // output file
+            "constraint": "no space"                      // subtask constraint
         },
         {
             "score": 30,
@@ -85,12 +85,11 @@ Repository/
             "memory": 524288,
             "input": "input/2",
             "output": "output/2",
-            "constraint": "無其他條件"
+            "constraint": "no additional constraint"
         }
     ]
 }
 ```
-
 
 ## Judge
 The RESTful Judge API supports HTTPS and CORS.
