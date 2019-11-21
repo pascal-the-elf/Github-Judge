@@ -54,7 +54,7 @@ Repository/
 
 ### problem.json
 
-```json
+```javascript
 {
     "Prefix": "a",                                        // problem prefix
     "No": "001",                                          // problem id
